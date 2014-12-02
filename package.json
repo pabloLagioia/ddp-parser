@@ -1,0 +1,8 @@
+{
+  "name": "ddp-parser",
+  "description": "parses dpp messages and saves them to a file",
+  "version": "0.0.1",
+  "dependencies": {
+    "line-reader": "x"
+  }
+}

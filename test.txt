@@ -1,0 +1,22 @@
+DDP Proxy Started on port: 3030
+===============================
+Export following env. variables and start your meteor app
+  export DDP_DEFAULT_CONNECTION_URL=http://localhost:3030
+  meteor
+
+New Client: [1]
+
+1 IN  0 {"server_id":"0"}
+1 OUT 10 {"msg":"connect","session":"jRZcgQQzcZfvnuf6f","version":"1","support":["1","pre2","pre1"]}
+1 IN  4 {"msg":"connected","session":"xA8Z6PcujjDK25Aa9"}
+1 OUT 67 {"msg":"method","method":"login","params":[{"resume":"YJx0csR8QprBgiJnK3-w1yjMujHMSnzW1ii-9T1sDnS"}],"id":"15"}
+1 OUT 0 {"msg":"sub","id":"9va5go5jyyKBWfmnP","name":"meteor.loginServiceConfiguration","params":[]}
+1 OUT 0 {"msg":"sub","id":"b6r5BRv6P3DwcR6Hw","name":"meteor_autoupdate_clientVersions","params":[]}
+1 OUT 0 {"msg":"sub","id":"tjpJWpjZf4youZ6ow","name":"meteor-clientCall-channel","params":["jXWl8l9dUV2DsJp"]}
+1 OUT 1 {"msg":"sub","id":"L2jfgo2uTb92iTw8e","name":"config","params":[]}
+1 OUT 0 {"msg":"sub","id":"F4PkWogppB9ngxpaE","name":"vehicleYears","params":[]}
+1 OUT 0 {"msg":"sub","id":"XxBwGJsRCajMNT3XH","name":"vehicleMakes","params":[]}
+1 OUT 0 {"msg":"sub","id":"tF3MuRPZ7uD8nTfPz","name":"workers","params":[]}
+1 OUT 0 {"msg":"sub","id":"Gtaenki2otTJWZTFJ","name":"inspectionsForUser","params":[]}
+1 OUT 0 {"msg":"sub","id":"tZu6hgzdQfbgyhynK","name":"inspectionOrders","params":[]}
+1 IN  16 {"msg":"added","collection":"users","id":"RhtsZkXLnsugQ8xxr","fields":{"emails":[{"address":"bc@intelliware.ca","verified":false}],"profile":{"store":{"name":"Curry's Auto Service","number":null,"url":"http://www.currysauto.com/","address":["5611 Wellington Road #119","Gainesville, VA, United States"],"country":"US","phoneNo":"(888) 888-8888","zipCode":"8879","franchiseName":"Curry's Auto Service","adminPIN":"1234","accountId":"D2KmrF2xuCgdMcFyh","inspections":["vvCNTH5xeysBg82d5","jPQa6fqEGXP6T6M9M","mnRmBDe979KmKzj3r"],"numDaysToNotify":2,"defaultInspection":"jPQa6fqEGXP6T6M9M","theme":"default","email":"bla@bla.com"},"groups":["store"]},"username":"TestCAN"}}
